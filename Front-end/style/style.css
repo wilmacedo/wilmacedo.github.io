@@ -1,0 +1,132 @@
+/* Padrões globais */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Formatação e escolha de cor para BG */
+body 
+{
+    display: block;
+    background-color: azure;
+}
+
+/* Formatação de logo para página inicial */
+.logo
+{
+    max-height: 230px;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: block;
+}
+
+/* Formatação para barra de pesquisa */
+.search_bar
+{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+/* Ajustes visuais para centralizar o form */
+.search_form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+/* Ajustando visão máxima de barra de pesquisa (layout responsivo) */
+.search_form form
+{
+    width: 100%;
+    max-width: 790px;
+}
+
+/* Formatação para input do usuário */
+.search_form form input
+{
+    background: transparent;
+    border: 0px;
+    width: 100%;
+    display: block;
+    padding: 10px 32px;
+    font-size: 17px;
+    color: #555;
+}
+
+/* Alterando coloração do placeholder do form */
+::placeholder
+{
+    color: #ccc;
+}
+
+/* Formatação para botão do form */
+.search_button
+{
+    height: 100%;
+    width: 10%;
+    white-space: nowrap;
+    color: white;
+    cursor: pointer;
+    background: #42bcf4;
+    border: 0px;
+    border-radius: 0px 50px 50px 0px;
+    transition: 0.25s ease-in-out;
+}
+
+/* Alteração de cor do botão */
+.search_button:hover
+{
+    background: #3daee2;
+}
+
+/* Ajustando tamanho do icon de search */
+.search_button i
+{
+    font-size: 20px;
+}
+
+/* Formatação de caixa para informações dos filmes */
+.movie_info
+{
+    width: 100%;
+    max-width: 790px;
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+/* Formatação para poster do filme */
+.movie_info img
+{
+    max-width: 130px;
+    float: right;
+    margin: 10px 30px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustando características das frases */
+.info
+{
+    font-size: 18px;
+    padding: 10px 32px;
+    color: #888;
+}
+
+/* Ajustando características das frases */
+.info_response
+{
+    font-size: 16px;
+    color: black;
+}
